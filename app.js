@@ -28,6 +28,7 @@ mongoose.connect('mongodb://localhost/newTest');
 
 //Schemas
 require('./modules/user.server.model.js');
+require('./modules/question.server.model.js');
 
 //Socket stuff
 require('./socket.controller')(io);
